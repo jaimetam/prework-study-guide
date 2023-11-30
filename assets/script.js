@@ -17,5 +17,4 @@ function selectTopic() {
     } else {   
     console.log('Please try gaine !');
     }
-
 }
