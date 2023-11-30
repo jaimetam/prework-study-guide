@@ -18,3 +18,4 @@ function selectTopic() {
     console.log('Please try gaine !');
     }
 }
+listTopics();
