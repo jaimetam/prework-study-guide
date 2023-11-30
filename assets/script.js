@@ -6,16 +6,17 @@ function listTopics(){
     }
 }
 function selectTopic() {
-    if (topic === 'HTML'){
+    if (topics[0] === 'HTML'){
         console.log ("Let's study HTML!");
-    } else if (topic === 'CSS'){
+    } else if (topics[0] === 'CSS'){
         console.log ("Let's study CSS!")
-    } else if (topic === 'Git'){
+    } else if (topics[0] === 'Git'){
         console.log("Let's study Git")
-    } else if (topic === 'JavaScript') {
+    } else if (topics[0] === 'JavaScript') {
      console.log("let study JavaScript")
     } else {   
     console.log('Please try gaine !');
     }
 }
 listTopics();
+selectTopic();
