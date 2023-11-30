@@ -5,7 +5,6 @@ function listTopics(){
         console.log(topix[x]);
     }
 }
-
 function selectTopic() {
     if ( topics === 'HTML'){
         console.log ("Let's study HTML!");
@@ -18,6 +17,5 @@ function selectTopic() {
     } else {   
     console.log('Please try gaine !');
     }
-    
+
 }
-listTopics();
