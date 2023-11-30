@@ -20,4 +20,5 @@ function selectTopic(){
     }
     
 }
+selectTopic()
 listTopics()
